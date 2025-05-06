@@ -1,5 +1,5 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1746559120
+::res://::1746564533
 icon.svg::CompressedTexture2D/CompressedTexture2D::343852091296955297::1745867416::1745867428::1::::<><><>0<>0<>47d790cf823d17fe5a70fec1b9fd0462<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://assets/::1746041059
 ::res://assets/game/::1746041059
@@ -36,5 +36,7 @@ Water.png::CompressedTexture2D/CompressedTexture2D::504787510721064833::17460407
 Wooden_House_Roof_Tilset.png::CompressedTexture2D/CompressedTexture2D::111383453117723901::1746040769::1746041060::1::::<><><>0<>0<>bedc6c64b27485276c7adea4511fa96f<>res://.godot/imported/Wooden_House_Roof_Tilset.png-ad18c3df12454b5a8567e8078e7df691.ctex::
 Wooden_House_Walls_Tilset.png::CompressedTexture2D/CompressedTexture2D::6086620974217813078::1746040769::1746041060::1::::<><><>0<>0<>6b780b847bb3b0e5020634744c06aa2e<>res://.godot/imported/Wooden_House_Walls_Tilset.png-a00cdd518519ed682754f2ae89389598.ctex::
 ::res://scenes/::1746041445
-::res://scenes/test/::1746042299
-test_scene_tilemap.tscn::PackedScene::8084000785689425161::1746042299::0::1::::<><><>0<>0<><>::
+::res://scenes/test/::1746563008
+test_scene_tilemap.tscn::PackedScene::8084000785689425161::1746563008::0::1::::<><><>0<>0<><>::uid://cduoapx4mdmgi::::res://Tilesets/game_tile_set.tres
+::res://Tilesets/::1746562975
+game_tile_set.tres::TileSet::5025546315994774332::1746562975::0::1::::<><><>0<>0<><>::uid://hgr1nxtk6mer::::res://assets/game/Tilesets/Water.png<>uid://n58bqr6kbc1y::::res://assets/game/Tilesets/Grass.png<>uid://d4kdlrroo5ggn::::res://assets/game/Tilesets/Tilled_Dirt_Wide.png<>uid://c6p4ogln6ymp2::::res://assets/game/Objects/Basic_Grass_Biom_things.png
