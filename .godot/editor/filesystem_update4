@@ -13,3 +13,11 @@ res://scenes/Characters/Player/walk_state.gd
 res://scripts/globals/data_types.gd
 res://scenes/Characters/Player/tilling_state.gd
 res://scenes/Characters/Player/watering_state.gd
+res://scenes/test/test_scene_house_tilemap.tscn
+res://scenes/houses/large_house.tscn
+res://Tilesets/house_tile_set.tres
+res://scenes/houses/door.tscn
+res://scenes/components/interactable_component.gd
+res://scenes/houses/door.gd
+res://scenes/components/interactable_component.tscn
+res://scenes/houses/small_house.tscn
