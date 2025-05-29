@@ -27,3 +27,4 @@ res://scenes/components/damage_component.tscn
 res://scenes/components/hit_component.tscn
 res://scenes/objects/trees/big_tree.tscn
 res://scenes/objects/trees/big_tree.gd
+res://scenes/objects/trees/tree_shake.gdshader
