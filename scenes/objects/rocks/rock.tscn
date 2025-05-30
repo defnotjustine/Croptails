@@ -1,0 +1,53 @@
+[gd_scene load_steps=11 format=3 uid="uid://ebsa3dn6vwal"]
+
+[ext_resource type="Shader" uid="uid://cll4ycr56i00l" path="res://scenes/objects/shake.gdshader" id="1_bntui"]
+[ext_resource type="Texture2D" uid="uid://c6p4ogln6ymp2" path="res://assets/game/Objects/Basic_Grass_Biom_things.png" id="1_f5itc"]
+[ext_resource type="Script" uid="uid://bx55h4kk5nwmd" path="res://scenes/objects/rocks/rock.gd" id="2_bntui"]
+[ext_resource type="PackedScene" uid="uid://bntokvhfte860" path="res://scenes/components/hurt_component.tscn" id="3_8i8v8"]
+[ext_resource type="PackedScene" uid="uid://cbygqdyb72f2o" path="res://scenes/components/damage_component.tscn" id="4_wj66e"]
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_8i8v8"]
+resource_local_to_scene = true
+shader = ExtResource("1_bntui")
+shader_parameter/shake_intensity = 0.0
+shader_parameter/shake_speed = 20.0
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_ms1l0"]
+atlas = ExtResource("1_f5itc")
+region = Rect2(128, 16, 16, 16)
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_ab37s"]
+radius = 4.0
+
+[sub_resource type="ShaderMaterial" id="ShaderMaterial_bntui"]
+resource_local_to_scene = true
+shader = ExtResource("1_bntui")
+shader_parameter/shake_intensity = 0.0
+shader_parameter/shake_speed = 20.0
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_5pald"]
+radius = 6.0
+
+[node name="Rock" type="Sprite2D"]
+material = SubResource("ShaderMaterial_8i8v8")
+position = Vector2(0, -2)
+texture = SubResource("AtlasTexture_ms1l0")
+script = ExtResource("2_bntui")
+
+[node name="StaticBody2D" type="StaticBody2D" parent="."]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D"]
+position = Vector2(0, 2)
+shape = SubResource("CircleShape2D_ab37s")
+
+[node name="HurtComponent" parent="." instance=ExtResource("3_8i8v8")]
+material = SubResource("ShaderMaterial_bntui")
+position = Vector2(10, -2)
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="HurtComponent"]
+position = Vector2(-10, 2)
+shape = SubResource("CircleShape2D_5pald")
+debug_color = Color(0.929175, 0.204548, 0.435748, 0.42)
+
+[node name="DamageComponent" parent="." instance=ExtResource("4_wj66e")]
+max_damage = 5
