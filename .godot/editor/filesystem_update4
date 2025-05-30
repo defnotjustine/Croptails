@@ -1,8 +1,9 @@
-res://scenes/test/test_scene_tilemap_layer_y_sort.tscn
+res://scenes/Characters/chicken/chicken.tscn
 res://Tilesets/house_tile_set.tres
 res://scenes/objects/shake.gdshader
 res://Tilesets/game_tile_set.tres
 res://scenes/Characters/Player/idle.gd
+res://scenes/Characters/chicken/walk.gd
 res://scenes/objects/trees/big_tree.gd
 res://scenes/Characters/Player/chopping_state.gd
 res://scenes/components/collectable_component.gd
@@ -12,6 +13,8 @@ res://scenes/houses/door.gd
 res://scripts/game_input_events.gd
 res://scenes/components/hit_component.gd
 res://scenes/components/hurt_component.gd
+res://scenes/Characters/chicken/idle.gd
+res://scenes/Characters/chicken/idle_state.gd
 res://scenes/components/interactable_component.gd
 res://scripts/state_machine/node_state.gd
 res://scripts/state_machine/node_state_machine.gd
@@ -20,6 +23,8 @@ res://scenes/objects/rocks/rock.gd
 res://scenes/objects/trees/small_tree.gd
 res://scenes/Characters/Player/tilling_state.gd
 res://scenes/Characters/Player/walk_state.gd
+res://scenes/Characters/chicken/walk_state.gd
 res://scenes/Characters/Player/watering_state.gd
-res://scenes/Characters/Player/player.tscn
-res://scenes/test/test_scene_objects_trees.tscn
+res://scenes/test/test_scene_npc_chicken.tscn
+res://scenes/Characters/non_playable_character.gd
+res://scenes/Characters/chicken/chicken.gd
