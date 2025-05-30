@@ -28,3 +28,6 @@ res://scenes/Characters/Player/watering_state.gd
 res://scenes/test/test_scene_npc_chicken.tscn
 res://scenes/Characters/non_playable_character.gd
 res://scenes/Characters/chicken/chicken.gd
+res://scenes/test/test_scene_npc_cow.tscn
+res://scenes/Characters/cow/cow.tscn
+res://scenes/Characters/cow/cow.gd
