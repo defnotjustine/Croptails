@@ -32,6 +32,10 @@ folder_colors={
 "res://scripts/": "pink"
 }
 
+[global_group]
+
+navigation_polygon_source_geometry_group=""
+
 [input]
 
 walk_up={
@@ -74,6 +78,7 @@ hit={
 2d_physics/layer_4="Tool"
 2d_physics/layer_5="Object"
 2d_physics/layer_6="Collectable"
+2d_physics/layer_7="NPC"
 
 [rendering]
 
