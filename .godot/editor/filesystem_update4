@@ -29,3 +29,10 @@ res://scenes/Characters/Player/watering_state.gd
 res://scenes/test/test_scene_npc_cow.tscn
 res://scenes/Characters/cow/cow.tscn
 res://scenes/Characters/chicken/chicken.tscn
+res://scenes/ui/tools_panel.tscn
+res://scenes/ui/game_ui_theme.tres
+res://scenes/ui/game_screen.tscn
+res://scenes/test/test_scene_game_screen_ui.tscn
+res://scripts/globals/tool_manager.gd
+res://scenes/ui/tools_panel.gd
+res://scenes/Characters/Player/player.tscn

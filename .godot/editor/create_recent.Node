@@ -1,3 +1,8 @@
+MarginContainer
+CanvasLayer
+Button
+HBoxContainer
+PanelContainer
 NavigationRegion2D
 Node
 NavigationAgent2D
@@ -7,6 +12,3 @@ CharacterBody2D
 TileMapLayer
 Sprite2D
 StaticBody2D
-Area2D
-Camera2D
-Node2D
