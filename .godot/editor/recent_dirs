@@ -1,6 +1,7 @@
+res://scenes/components
 res://scripts/globals
-res://assets/ui/fonts
 res://scenes/ui
+res://assets/ui/fonts
 res://scenes/objects/plants
 res://scenes/objects
 res://assets/game/Characters
@@ -9,7 +10,6 @@ res://scenes/Characters/chicken
 res://scenes/objects/rocks
 res://assets/game/Objects
 res://scenes/objects/trees
-res://scenes/components
 res://scenes/houses
 res://assets/game/Tilesets
 res://Tilesets

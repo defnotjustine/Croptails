@@ -42,3 +42,9 @@ res://scenes/test/test_scene_inventory_management.tscn
 res://scripts/globals/inventory_manager.gd
 res://scenes/components/collectable_component.tscn
 res://scenes/ui/inventory_panel.gd
+res://scenes/ui/day_and_night_panel.tscn
+res://scenes/test/test_scene_day_and_night_cycle.tscn
+res://scripts/globals/day_and_night_cycle_manager.gd
+res://scenes/ui/day_and_night_panel.gd
+res://scenes/components/day_and_night_cycle_component.tscn
+res://scenes/components/day_and_night_cycle_component.gd
