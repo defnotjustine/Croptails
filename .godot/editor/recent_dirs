@@ -1,7 +1,8 @@
+res://scripts/globals
+res://assets/ui/fonts
+res://scenes/ui
 res://scenes/objects/plants
 res://scenes/objects
-res://scripts/globals
-res://scenes/ui
 res://assets/game/Characters
 res://scenes/Characters/cow
 res://scenes/Characters/chicken

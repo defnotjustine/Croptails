@@ -35,3 +35,10 @@ res://scenes/objects/milk.tscn
 res://scenes/objects/plants/tomato_harvest.tscn
 res://scenes/objects/plants/corn_harvest.tscn
 res://scenes/objects/rocks/stone.tscn
+res://scenes/ui/inventory_panel.tscn
+res://assets/ui/fonts/zx_palm_variation.tres
+res://scenes/ui/game_screen.tscn
+res://scenes/test/test_scene_inventory_management.tscn
+res://scripts/globals/inventory_manager.gd
+res://scenes/components/collectable_component.tscn
+res://scenes/ui/inventory_panel.gd
