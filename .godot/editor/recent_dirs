@@ -1,8 +1,8 @@
 res://scenes/components
+res://scenes/objects/plants
 res://scripts/globals
 res://scenes/ui
 res://assets/ui/fonts
-res://scenes/objects/plants
 res://scenes/objects
 res://assets/game/Characters
 res://scenes/Characters/cow

@@ -1,0 +1,3 @@
+[gd_scene format=3 uid="uid://0cbs05hrvsml"]
+
+[node name="CropsCursorComponent" type="Node"]
