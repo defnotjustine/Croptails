@@ -6,6 +6,20 @@ extends PanelContainer
 @onready var tool_corn: Button = $MarginContainer/HBoxContainer/ToolCorn
 @onready var tool_tomato: Button = $MarginContainer/HBoxContainer/ToolTomato
 
+func _ready() -> void:
+	ToolManager.enable_tool.connect(on_enable_tool_button)
+	
+	tool_tilling.disabled = true
+	tool_tilling.focus_mode = Control.FOCUS_NONE
+	
+	tool_watering_can.disabled = true
+	tool_watering_can.focus_mode = Control.FOCUS_NONE
+	
+	tool_corn.disabled = true
+	tool_corn.focus_mode = Control.FOCUS_NONE
+	
+	tool_tomato.disabled = true
+	tool_tomato.focus_mode = Control.FOCUS_NONE
 
 
 func _on_tool_axe_pressed() -> void:

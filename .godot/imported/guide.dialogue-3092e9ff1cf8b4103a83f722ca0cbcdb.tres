@@ -1,0 +1,138 @@
+[gd_resource type="Resource" script_class="DialogueResource" load_steps=2 format=3]
+
+[ext_resource type="Script" uid="uid://dbs4435dsf3ry" path="res://addons/dialogue_manager/dialogue_resource.gd" id="1_8rqvy"]
+
+[resource]
+script = ExtResource("1_8rqvy")
+using_states = PackedStringArray()
+titles = {
+"start": "1"
+}
+character_names = PackedStringArray("Marlow", "Teemo")
+first_title = "0"
+lines = {
+"0": {
+&"id": "0",
+&"next_id": "1",
+&"type": "title"
+},
+"1": {
+&"character": "Marlow",
+&"id": "1",
+&"next_id": "2",
+&"text": "[[Hi|Hello|Howdy]], nice to meet you.",
+&"type": "dialogue"
+},
+"10": {
+&"character": "Teemo",
+&"id": "10",
+&"next_id": "12",
+&"text": "I'm not ready to grow my farm yet.",
+&"type": "dialogue"
+},
+"11": {
+&"id": "11",
+&"next_id": "12",
+&"type": ""
+},
+"12": {
+&"id": "12",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"13": {
+&"id": "13",
+&"is_snippet": false,
+&"next_id": "end",
+&"next_id_after": "",
+&"type": "goto"
+},
+"2": {
+&"character": "Marlow",
+&"id": "2",
+&"next_id": "3",
+&"text": "Welcome to your new farm.",
+&"type": "dialogue"
+},
+"3": {
+&"character": "Marlow",
+&"id": "3",
+&"next_id": "4",
+&"text": "As you can see the cows and chickens are hungry.",
+&"type": "dialogue"
+},
+"4": {
+&"character": "Marlow",
+&"id": "4",
+&"next_id": "5",
+&"text": "You need to grow some crops to feed them.",
+&"type": "dialogue"
+},
+"5": {
+&"character": "Marlow",
+&"id": "5",
+&"next_id": "6",
+&"text": "Here are some seeds to grow some crops.",
+&"type": "dialogue"
+},
+"6": {
+&"id": "6",
+&"next_id": "7",
+&"responses": PackedStringArray("6", "9"),
+&"text": "Take crop seeds",
+&"type": "response"
+},
+"7": {
+&"character": "Teemo",
+&"id": "7",
+&"next_id": "8",
+&"text": "Yeah I can grow crops.",
+&"type": "dialogue"
+},
+"8": {
+&"id": "8",
+&"mutation": {
+&"expression": Array[Dictionary]([{
+&"i": 3,
+&"type": &"variable",
+&"value": "GameDialogueManager"
+}, {
+&"i": 22,
+&"type": &"dot"
+}, {
+&"function": "action_give_crop_seeds",
+&"i": 23,
+&"type": &"function",
+&"value": Array[Array]([Array[Dictionary]([{
+&"i": 46,
+&"type": &"parens_close"
+}])])
+}]),
+&"is_blocking": true
+},
+&"next_id": "12",
+&"type": "mutation"
+},
+"9": {
+&"id": "9",
+&"next_id": "10",
+&"text": "No, I don't want them",
+&"type": "response"
+}
+}
+raw_text = "~ start
+Marlow: [[Hi|Hello|Howdy]], nice to meet you.
+Marlow: Welcome to your new farm.
+Marlow: As you can see the cows and chickens are hungry.
+Marlow: You need to grow some crops to feed them.
+Marlow: Here are some seeds to grow some crops.
+- Take crop seeds
+	Teemo: Yeah I can grow crops.
+	do GameDialogueManager.action_give_crop_seeds()
+- No, I don't want them
+	Teemo: I'm not ready to grow my farm yet.
+
+=> END"
+metadata/dialogue_manager_version = "3.6.3"
